@@ -11,7 +11,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#if 1//def WIN32
+#ifdef WIN32
 #include <tchar.h>
 #include <Windows.h>
 #endif
